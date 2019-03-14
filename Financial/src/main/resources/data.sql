@@ -1,0 +1,48 @@
+INSERT INTO COMPANY values(1,'Corporate','Automobiles','','2018-03-01','2018-03-01','12345','Tata Motors','12345');
+
+INSERT INTO FINANCIAL_MASTER values(11,'2018-03-01','2018-03-01','FEEDSOURCE',2018,1);
+
+INSERT INTO BALANCE_SHEET values(21,'US$','US$',0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,'1.0',11);
+
+INSERT INTO ASSET values(31,'FALSE','Current Investments','',14640.37,'1.0');
+INSERT INTO ASSET values(32,'FALSE','Inventories','',11023.41,'1.0');
+INSERT INTO ASSET values(33,'FALSE','Trade Receivables','',1875.63,'1.0');
+INSERT INTO ASSET values(34,'FALSE','Cash And Cash Equivalents','',4696.74,'1.0');
+INSERT INTO ASSET values(35,'FALSE','Short Term Loans And Advances','',74.13,'1.0');
+INSERT INTO ASSET values(36,'FALSE','OtherCurrentAssets','',2333.63,'1.0');
+INSERT INTO ASSET values(37,'FALSE','Tangible Assets','',70942.90,'1.0');
+INSERT INTO ASSET values(38,'FALSE','Intangible Assets','',786.18,'1.0');
+INSERT INTO ASSET values(39,'FALSE','Capital Work-In-Progress','',5641.50,'1.0');
+INSERT INTO ASSET values(40,'FALSE','Intangible Assets Under Development','',31.77,'1.0');
+
+INSERT INTO CURRENT_ASSET values(31,21);
+INSERT INTO CURRENT_ASSET values(32,21);
+INSERT INTO CURRENT_ASSET values(33,21);
+INSERT INTO CURRENT_ASSET values(34,21);
+INSERT INTO CURRENT_ASSET values(35,21);
+INSERT INTO CURRENT_ASSET values(36,21);
+
+INSERT INTO NON_CURRENT_ASSET values(37,21);
+INSERT INTO NON_CURRENT_ASSET values(38,21);
+INSERT INTO NON_CURRENT_ASSET values(39,21);
+INSERT INTO NON_CURRENT_ASSET values(40,21);
+
+INSERT INTO LIABILITY values(51,'FALSE','Short Term Borrowings','',669.88,'1.0');
+INSERT INTO LIABILITY values(52,'FALSE','Trade Payables','',11242.75,'1.0');
+INSERT INTO LIABILITY values(53,'FALSE','Other Current Liabilities','',12959.43,'1.0');
+INSERT INTO LIABILITY values(54,'FALSE','Short Term Provisions','',735.28,'1.0');
+INSERT INTO LIABILITY values(55,'FALSE','Long Term Borrowings','',24568.95,'1.0');
+INSERT INTO LIABILITY values(56,'FALSE','Deferred Tax Liabilities','',6259.09,'1.0');
+INSERT INTO LIABILITY values(57,'FALSE','Other Long Term Liabilities','',2927.91,'1.0');
+INSERT INTO LIABILITY values(58,'FALSE','Long Term Provisions','',1961.21,'1.0');
+
+
+INSERT INTO CURRENT_LIABILITY values(51,21);
+INSERT INTO CURRENT_LIABILITY values(52,21);
+INSERT INTO CURRENT_LIABILITY values(53,21);
+INSERT INTO CURRENT_LIABILITY values(54,21);
+
+INSERT INTO NON_CURRENT_LIABILITY values(55,21);
+INSERT INTO NON_CURRENT_LIABILITY values(56,21);
+INSERT INTO NON_CURRENT_LIABILITY values(57,21);
+INSERT INTO NON_CURRENT_LIABILITY values(58,21);
